@@ -26,6 +26,17 @@ int main() {
 
     bool b = true;
 
+    std::cout << "language version: " << __cplusplus << std::endl;
+/*
     if(b)
         std::cout << "The condition is true\n";
+*/
+    if(!b)
+        std::cout << "The condition is true.\n";
+    else
+        std::cout << "The condition is false.\n";
+
+
+
+
 }
